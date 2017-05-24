@@ -7,10 +7,10 @@ type Vertex struct {
 }
 
 var (
-    v1 = Vertex{1,2}
+    v1 = Vertex{1, 2}
     v2 = Vertex{X: 1}
     v3 = Vertex{}
-    p  = &Vertex{1,2}
+    p  = &Vertex{1, 2}
 )
 
 func main() {
